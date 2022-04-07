@@ -1,0 +1,15 @@
+
+
+<router-outlet></router-outlet>
+
+<input type="text">
+
+<h2>{{title}}</h2>
+
+<!--<input [type]="miTipo"  [(ngModel)]="title">-->
+<br><input type="button"  (click)="limpiarCasillas()" value="limpiar"><br>
+<br><input type="number"  value="edad1" id="edad1"><br>
+<br><input type="number"  value="edad2" id="edad2"><br>
+<br><input type="button"  (click)="calcularPromedio()" value="calcular"><br>
+<br><input [type]="miPromedio"  value="mostrarPromedio()"><br>
+<br><input [type]="miSuma"  value="mostrarSuma()"><br>
